@@ -1,0 +1,152 @@
+body,html{
+  height: 100%;
+  width: 100%;
+}
+/* Background */
+.parallax1 {
+    /* The image used */
+    background-image: url("https://github.com/livinlefevreloca/Sweet-Little-Gardens/blob/master/pots.jpg?raw=true");
+
+    /* Full height */
+    height: 700px; 
+    width: 100%;
+    filter: brightness(50%);
+    /* Create the parallax scrolling effect*/ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+#grabber1{
+  position: absolute;
+  top: 450px;
+  left: 100px;
+  color: white;
+  font-size: 100px;
+  z-index: 1;
+  font-family: Alegreya;
+}
+#grabber2{
+  position: absolute;
+  top: 1400px;
+  left: 100px;
+  color: white;
+  font-size: 50px;
+  z-index: 2;
+  font-family: Alegreya;
+  
+}
+
+#bottom-bar{
+  color: black;
+  font-family: Alegreya;
+  background: #EFE4B0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #EFE4B0, #b7d1a1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #EFE4B0, #b7d1a1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #EFE4B0, #b7d1a1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,  #EFE4B0, #b7d1a1 ); /* Standard syntax */
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  background-color: #EFE4B0;
+}
+
+#logopic{
+  display: block;
+  margin: 0 auto;
+  height: 350px;
+  width: 550px;
+  opacity: 0.75;
+ 
+}
+
+.introduction{
+  opacity: 0.8;
+  color: black;
+  font-family: Alegreya;
+  height: auto;
+  background: #EFE4B0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 17px;
+}
+
+/* Instagram Feed */
+
+.IG-input{
+ height: 500px;
+ width: 100%;
+background: #EFE4B0;
+}
+
+
+/* navbar */
+.navbar{
+       margin-bottom: 0!important;
+       box-shadow:10px 10px 5px #888888;
+    }
+
+#welcome{
+  font-size: 25px;
+  color: Black;
+}
+
+
+
+
+
+.navbar-default {
+  background: #EFE4B0; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #EFE4B0, #b7d1a1); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #EFE4B0, #b7d1a1); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #EFE4B0, #b7d1a1); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,  #EFE4B0, #b7d1a1 ); /* Standard syntax */
+    border-color:  #b7d1a1;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-toggle{
+  margin-top: 20px;
+}
+
+.navbar-header{
+  margin-right:5px;
+  width:100%;
+  font-size: 20px;
+  font-family: Satisfy;
+  color: black;
+}
+.navbar-nav{
+  margin-top: 15px;
+  
+}
+
+
+
+
+#pic-wrapper{
+  margin: auto;
+  margin-top: 50px;
+  
+  height: auto;
+  width: 800px;
+}
+
+#pic1{
+  float: left;
+  border: 2px solid black;
+  border-radius: 50%;
+   overflow:hidden;
+}
+#pic2{
+  float: right;
+  border: 2px solid black;
+  border-radius: 50%;
+  overflow:hidden;
+}

@@ -1,0 +1,18 @@
+body {
+	background: url(./images/background_extension.gif);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-attachment: fixed;
+	background-size: 100% ;
+	background-color: #824B00;
+}
+
+.title { color: #47C247;
+	}
+.welcome { color: #47C247;
+	}
+
+
+	
+
+
